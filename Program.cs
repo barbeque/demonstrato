@@ -26,9 +26,13 @@ namespace Demonstrato
             scale.Add("A#", 880);
             scale.Add("Z", 0); // gap
 
+            // "Popcorn Behavior"
             var song = new string[]
                 {
-                    "A", "B", "C", "D", "E", "F"
+                    "G", "G", "Z",
+                    "A#", "G", "G", "A", "Z",
+                    "G", "E", "D", "C", "Z",
+                    "D", "C", "D", "E", "Z"
                 };
 
             const int noteDurationMilliseconds = 250;
